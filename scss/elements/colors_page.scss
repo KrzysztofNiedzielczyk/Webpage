@@ -1,0 +1,31 @@
+.colors_page{
+  .row{
+    margin-top:20px;
+  }
+  .colors{
+    .color{
+      height:30px;
+      line-height: 30px;
+      font-size: 1.6rem;
+      border: 1px solid black;
+      &.red{
+        background: red;
+      }
+      &.green{
+        background: green;
+      }
+      &.blue{
+        background: blue;
+      }
+      &.opacity{
+        background: white;
+      }
+    }
+  }
+
+  .resultColor{
+    height:100px;
+    border: 1px solid black;
+    background: #000000;
+  }
+}

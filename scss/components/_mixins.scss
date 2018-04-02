@@ -1,0 +1,10 @@
+@mixin square($size){
+  width: $size;
+  height: $size;
+}
+
+@mixin min-width($size){
+  @media all and (min-width:$size ){
+    @content
+  }
+}
